@@ -153,7 +153,8 @@ public class LockService extends Service {
             mHandler.post(new Runnable(){
                 public void run(){
 
-                    mfCamera = Camera.open(Camera.CameraInfo.CAMERA_FACING_FRONT);
+                        mfCamera = Camera.open(Camera.CameraInfo.CAMERA_FACING_FRONT);
+
                 }
             });
 
